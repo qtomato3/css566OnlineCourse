@@ -1,0 +1,46 @@
+﻿@model IEnumerable<css566OnlineCourse.Models.MultipleChoiceQuestion>
+
+@{
+    ViewBag.Title = "Quiz";
+}
+
+<div class="container">
+    <h2>Quiz</h2>
+    
+    <h4>Multiple Choice Questions</h4>
+    <hr />
+    <div class="row">
+        <form id="whole-quiz" method="post">
+            
+            @{int count = 0;}
+
+            @foreach(var item in Model) 
+            {
+                count++;
+                string qname = "Question " + count.ToString();
+   
+                <div class="row">
+                    @qname: <span style="white-space: pre-line">@item.Question</span>
+
+                    <div class="row">
+                        @if (item.Options.Count > 0) 
+                        {
+                            foreach (var option in @item.Options) {
+                            <label>
+                                <input type="radio" name=@count>
+                                <span class="label-body">@option</span>
+                            </label>
+                            }
+                        }
+                    </div>
+
+                </div>
+             
+                
+            }
+                
+            <button class="button-primary" type="submit">Submit</button>
+        </form>
+    </div>
+    
+</div>

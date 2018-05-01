@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "css566OnlineCourse", "css566OnlineCourse\css566OnlineCourse.csproj", "{8DAF7073-F2A4-4348-9C32-8B36C9946FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "css566OnlineCourse.Tests", "css566OnlineCourse.Tests\css566OnlineCourse.Tests.csproj", "{A9ADBC37-2243-44C2-AC8D-BC67F051184A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DAF7073-F2A4-4348-9C32-8B36C9946FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAF7073-F2A4-4348-9C32-8B36C9946FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAF7073-F2A4-4348-9C32-8B36C9946FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAF7073-F2A4-4348-9C32-8B36C9946FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ADBC37-2243-44C2-AC8D-BC67F051184A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ADBC37-2243-44C2-AC8D-BC67F051184A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ADBC37-2243-44C2-AC8D-BC67F051184A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ADBC37-2243-44C2-AC8D-BC67F051184A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
